@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import pdfplumber
 import spacy
+from spacy.cli import download
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -14,8 +15,13 @@ from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Load SpaCy English model
-nlp = spacy.load("en_core_web_sm")
+# Download SpaCy English model (en_core_web_sm)
+# This will download the model if it's not already available
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    download("en_core_web_sm")  # Download model if not found
+    nlp = spacy.load("en_core_web_sm")
 
 # Create "resumes" folder if it doesn't exist
 if not os.path.exists("resumes"):
