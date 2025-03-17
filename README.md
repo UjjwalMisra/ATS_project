@@ -1,4 +1,4 @@
-# ATS Resume Ranking System Project
+# ATS Resume Ranking System Project - https://resume-score-checker.streamlit.app/
 
 🚀 **ATS Resume Ranking System**  
 An AI-powered web application that automates the process of ranking resumes for Data Science Fresher roles. It uses Natural Language Processing (NLP) techniques to extract and preprocess resume text, and applies TF-IDF Vectorization with Cosine Similarity to calculate an ATS (Applicant Tracking System) score for each resume.
