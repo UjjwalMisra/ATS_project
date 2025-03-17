@@ -35,4 +35,4 @@ An AI-powered web application that automates the process of ranking resumes for 
 - Dashboard with analytics and insights.
 
 ## 👨‍💻 Author
-- [Your Name](https://github.com/ujjwalmisra)
+- [ujjwalmisra](https://github.com/ujjwalmisra)
