@@ -20,7 +20,7 @@ An AI-powered web application that automates the process of ranking resumes for 
 
 ## 📂 How to Run
 1. Clone the repo  
-   `git clone https://github.com/yourusername/ATS_project.git`
+   `git clone https://github.com/ujjwalmisra/ATS_project.git`
 
 2. Install dependencies  
    `pip install -r requirements.txt`
@@ -35,4 +35,4 @@ An AI-powered web application that automates the process of ranking resumes for 
 - Dashboard with analytics and insights.
 
 ## 👨‍💻 Author
-- [Your Name](https://github.com/yourusername)
+- [Your Name](https://github.com/ujjwalmisra)
